@@ -37,12 +37,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### Install required packages
 pip install -r requirements.txt
-This repository does not include a requirements.txt file, but you can create one with the following content, which are the only libraries needed:
+This repository does not include a ```requirements.txt``` file, but you can create one with the following content, which are the only libraries needed:
 
+```
 requirements.txt
 
 opencv-python
 numpy
+```
 **3. Download YOLOv3 Model Files**
 This project relies on three files for the YOLOv3 model, which are not included in the repository due to their large size. You must download them and place them in the project's root directory.
 
@@ -78,5 +80,6 @@ python main.py
 A window will open showing your webcam feed with object detection running.
 
 Press **q **to quit the program
+
 
 
