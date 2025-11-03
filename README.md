@@ -1,7 +1,9 @@
-#Webcam Object Detector
+# Webcam Object Detector
+
+
 A simple, real-time object detection project that uses your webcam to identify objects. This project is built with Python and uses the YOLOv3 model (You Only Look Once) with OpenCV.
 
-###Features
+### Features
 Real-time object detection from your webcam feed.
 
 Uses the pre-trained YOLOv3-320 model.
@@ -10,12 +12,12 @@ Detects 80 different object classes from the COCO dataset (e.g., "person", "car"
 
 Draws bounding boxes and labels on detected objects with a confidence score.
 
-###How It Works
+### How It Works
 The main.py script initializes your webcam, loads the pre-trained YOLOv3 neural network using OpenCV's DNN module, and processes each frame.
 
 For every frame, the image is passed through the network, which returns a list of detected objects, their locations (bounding boxes), and the confidence of the detection. The script then draws these boxes and labels on the frame before displaying it.
 
-###Setup & Installation
+### Setup & Installation
 Follow these steps to get the project running.
 
 **1. Clone the Repository**
@@ -29,11 +31,11 @@ It's recommended to use a Python virtual environment.
 
 
 
-# Create a virtual environment (optional but recommended)
+### Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install required packages
+### Install required packages
 pip install -r requirements.txt
 This repository does not include a requirements.txt file, but you can create one with the following content, which are the only libraries needed:
 
@@ -67,7 +69,7 @@ webcam_obj_detector/
 |-- requirements.txt
 |-- .gitignore
 ```
-###How to Run
+### How to Run
 Once you have installed the dependencies and downloaded the model files, run the main script:
 
 Bash
@@ -76,3 +78,4 @@ python main.py
 A window will open showing your webcam feed with object detection running.
 
 Press **q **to quit the program
+
