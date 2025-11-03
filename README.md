@@ -72,10 +72,11 @@ webcam_obj_detector/
 ### How to Run
 Once you have installed the dependencies and downloaded the model files, run the main script:
 
-Bash
-
+```bash
 python main.py
+```
 A window will open showing your webcam feed with object detection running.
 
 Press **q **to quit the program
+
 
